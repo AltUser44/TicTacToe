@@ -1,11 +1,9 @@
-Author: Kester Nkese
-
 A Tic-Tac-Toe game with a colorful 3x3 matrix display.
 'A' and 'B' represent the two players, using 'X' and 'O' as their respective pointers.
 The game begins with the user (Player A) making the first move, and the computer (Player B) strategically
 responding to either win the game or block Player A from winning.
 
-The code implements ANSI escape codes for text color add a vibrant touch to the game display.
+The code implements ANSI escape codes for text color to add a vibrant touch to the game display.
 After printing the colorful game grid, a function allows the user to place their pointer in a desired position.
 The 'check_win' function determines all possible winning combinations and checks if the pointers are the same,
 displaying an appropriate message when a player wins or when the game results in a draw.
